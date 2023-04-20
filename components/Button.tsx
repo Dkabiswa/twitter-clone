@@ -1,11 +1,11 @@
 import React from "react";
 
 interface ButtonProps {
-    label: string;
-    secondary?: string;
+    label?: string;
+    secondary?: boolean;
     fullWidth?: boolean;
     large?: boolean;
-    onClick: () => {};
+    onClick: () => void;
     disabled?: boolean;
     outline?: boolean;
 }
